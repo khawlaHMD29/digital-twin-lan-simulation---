@@ -32,20 +32,6 @@ To build a modular and extensible simulation of a LAN where each physical device
 
 ---
 
-## 📁 Project Structure
-digital-twin-lan-simulation/
-│
-├── main.py            # Entry point and simulation logic
-├── network.py         # LAN topology creation
-├── twin.py            # Digital twin generation and metrics
-├── detector.py        # Rule-based fault detection
-├── ml_data.py         # Synthetic training data generation
-├── ml_model.py        # ML model training and prediction
-├── visualize.py       # Network and fault visualization
-├── README.md          # Project documentation
-
----
-
 ## 🚀 How to Run
 
 1. Clone the repository:
