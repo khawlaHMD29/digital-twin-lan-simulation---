@@ -1,0 +1,14 @@
+# CITATION.cff
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Digital Twin LAN Simulation"
+version: "1.0.0"
+date-released: "2025-09-24"
+authors:
+  - family-names: "Hammouda"
+    given-names: "Khawla"
+    orcid: "https://orcid.org/0009-0002-1350-0912"
+    affiliation: "University of Skikda"
+doi: ""
+url: "https://github.com/khawlaHMD29/digital-twin-lan-simulation---"
+license: "MIT"

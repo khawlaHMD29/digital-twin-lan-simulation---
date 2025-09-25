@@ -8,6 +8,7 @@ tags:
   - machine learning
 authors:
   - name: Khawla Hammouda
+    orcid: 0009-0002-1350-0912
     affiliation: 1
 affiliations:
  - name: Independent Researcher, Algeria
@@ -22,14 +23,19 @@ bibliography: paper.bib
 
 # Statement of need
 
-As modern networks grow in complexity, traditional rule-based monitoring is often insufficient to capture subtle fault dynamics such as jitter and packet loss. There is a need for reproducible, extensible tools that integrate data-driven approaches into fault detection. `digital-twin-lan-simulation` fills this gap by combining digital twin modeling with machine learning classification, offering a platform for exploring hybrid detection strategies. The software is intended for researchers, educators, and practitioners interested in intelligent fault detection, network reliability analysis, and simulation-driven experimentation.
+As computer networks become increasingly complex, traditional rule-based monitoring approaches are often inadequate for capturing subtle fault dynamics such as jitter and packet loss. This creates a clear need for reproducible and extensible tools that integrate data-driven methods into fault detection.  
 
-`digital-twin-lan-simulation` provides the following scope:
+`digital-twin-lan-simulation` addresses this challenge by combining digital twin modeling with machine learning classification, providing a unified framework for exploring hybrid fault detection strategies. The software is designed for researchers, educators, and practitioners interested in intelligent fault detection, network reliability analysis, and simulation-driven experimentation.  
 
-- **Inputs:** LAN topology parameters, node metrics (delay, jitter, loss).
-- **Outputs:** fault classifications (Latency Spike, Jitter, Packet Loss, No Fault), comparative reports of rule-based vs. ML-based detection.
-- **Scope:** extensible framework for small-to-medium scale LANs, reproducible experiments in fault detection.
-- **Integration:** modular Python codebase, simple API for extensions, visualization tools for temporal and structural analysis.
+Beyond a proof-of-concept, this framework is conceived as a **modular and extensible platform**. Users can incorporate new machine learning models, simulate alternative network topologies, or extend monitoring metrics, making it suitable for both scientific research and educational use.  
+
+The project offers the following scope:
+
+- **Inputs:** LAN topology parameters, node-level metrics (delay, jitter, packet loss).  
+- **Outputs:** fault classifications (Latency Spike, Jitter, Packet Loss, No Fault) and comparative analyses of rule-based vs. ML-based detection.  
+- **Scope:** extensible framework for small-to-medium scale LANs, supporting reproducible experiments in fault detection.  
+- **Integration:** modular Python codebase with a simple API for extensions and visualization tools for temporal and structural analysis.  
+
 
 # Functionality
 

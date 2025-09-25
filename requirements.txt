@@ -1,0 +1,4 @@
+pandas==2.2.3
+scikit-learn==1.7.2
+matplotlib==3.10.1
+networkx==3.4.2
